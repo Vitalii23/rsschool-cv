@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>CV#2. HTML, CSS & Git Basics</title>
+</head>
+<body>
+
+<div class="row">
+    <div class="column left">
+        <aside class="left-color-background-dark-grey">
+            <section>
+                <h1 class="left-color-background-light-grey color-text">Contact</h1>
+                <p class="list-markers color-text">Phone: +70959912314</p>
+                <p class="list-markers color-text">E-mai: danilov.vit.an@gmail.com</p>
+                <p class="list-markers color-text">Telegram: @vitaliiandan</p>
+            </section>
+            <section>
+                <h1 class="left-color-background-light-grey color-text">Skills</h1>
+                <p class="list-markers color-text">Java</p>
+                <p class="list-markers color-text">Js(basic)</p>
+                <p class="list-markers color-text">Git</p>
+                <p class="list-markers color-text">MySQL</p>
+                <p class="list-markers color-text">HTML&CSS</p>
+                <p class="list-markers color-text">Hibernate</p>
+                <p class="list-markers color-text">Arduino</p>
+                <p class="list-markers color-text">Reading wiring diagrams</p>
+                <p class="list-markers color-text">Soldering</p>
+                <p class="list-markers color-text"> Electrical appliance repai</p>
+            </section>
+            <section>
+                <h1 class="left-color-background-light-grey color-text">Experience</h1>
+                <p class="color-text">currently no work experience</p>
+            </section>
+            <section>
+                <h1 class="left-color-background-light-grey color-text">Education</h1>
+                <p class="color-text">University: city Tomsk TUSUR (Tomsk State University of Control
+                    Systems and Radioelectronics) mastered the direction 03.27.04 “Control in technical devices”</p>
+            </section>
+            <section>
+                <h1 class="left-color-background-light-grey color-text">English</h1>
+                <p class="color-text">I speak English at level A</p>
+            </section>
+        </aside>
+    </div>
+
+    <div class="column right">
+        <header>
+            <h1>Vitalii Danilov</h1>
+            <h2>Electronics Enginner</h2>
+        </header>
+        <aside>
+            <section>
+                <h1>About Myself:</h1>
+                <p>I had the opportunity to try to become an electronics engineer, of course,
+                    it taught me a lot to work with electronics, and developed skills in working with microcontrollers
+                    and radio components. Unfortunately, this position is not interesting for me,
+                    since I do not do what I love, so I want to do programming.
+                    That’s why I want to become one, because I love to create programs.
+                    That’s why I want to get this opportunity.</p>
+            </section>
+            <section>
+                <h1>Example code</h1>
+                <pre>
+                    <code>function run(){
+                              const array = [];
+                              array.length = 10;
+
+                              const count = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+                               count.length = 10;
+
+                               for (let i = 0; i < array.length; i += 1) {
+                                    array[i] = getRandom(array.length);
+                                    count[array[i]] += 1;
+                               }
+                               console.log(array);
+                               console.log(count);
+
+                               console.log("number\tcount");
+                               for (let i = 0; i < count.length; i += 1){
+                                    console.log(i + "\t" + count[i])
+                               }
+                           }
+                           console.log(run());
+                    </code>
+                </pre>
+            </section>
+        </aside>
+    </div>
+</div>
+</body>
+</html>

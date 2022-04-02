@@ -1,0 +1,38 @@
+.left {
+    width: 30%;
+}
+
+.right {
+    float: left;
+    width: 60%;
+    padding-left: 20px;
+}
+
+p.list-markers:before {
+    content: '\2022';
+    align-content: space-around;
+    padding: 10px;
+    font-family: Calibri, serif;
+}
+
+.color-text {
+    color: rgb(244, 244, 244);
+}
+
+.left-color-background-light-grey {
+    background-color: rgb(53, 57, 69);
+}
+
+.left-color-background-dark-grey {
+    background-color: rgb(44, 50, 62);
+}
+
+.column {
+    float: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

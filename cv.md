@@ -19,7 +19,8 @@ I had the opportunity to try to become an electronics engineer, of course, it ta
 - Electrical appliance repair
 ### Example code
 *There is an array of numbers, get a list of the form {number, number of occurrences of the number in the array}, the list must be sorted by the number of occurrences, inside ascending numbers.*
-```javascript
+
+```
 function getRandom(number){
     return Math.floor(Math.random() * number);
 }
@@ -45,7 +46,6 @@ function run(){
 }
 
 console.log(run());
-
 ```
 
 ### Experience
@@ -53,4 +53,5 @@ currently no work experience
 ### Education
 University: city Tomsk TUSUR (Tomsk State University of Control Systems and Radioelectronics) mastered the direction 03.27.04 "Control in technical devices"
 ### English 
-I speak English at level A1
+I speak English at level A
+

@@ -20,11 +20,14 @@ I had the opportunity to try to become an electronics engineer, of course, it ta
 ### Example code
 *There is an array of numbers, get a list of the form {number, number of occurrences of the number in the array}, the list must be sorted by the number of occurrences, inside ascending numbers.*
 
-```
+```js
 function getRandom(number){
     return Math.floor(Math.random() * number);
 }
 
+```
+
+```js
 function run(){
     const array = [];
     array.length = 10;
@@ -45,6 +48,8 @@ function run(){
     }
 }
 
+```
+```js
 console.log(run());
 ```
 

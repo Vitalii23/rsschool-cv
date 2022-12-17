@@ -1,0 +1,29 @@
+
+footer {
+    background: #3a6fa7;
+}
+
+.cv_contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.cv_contact_name{
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.cv_contact_element{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+}
+
+.cv_contact_info{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 52px;
+    color: #FFFFFF;
+}

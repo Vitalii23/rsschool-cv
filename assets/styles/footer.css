@@ -2,6 +2,13 @@
 footer {
     background: #3a6fa7;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 100%;
+    height: 20%;
 }
 
 .cv_contact{
@@ -26,4 +33,10 @@ footer {
     font-size: 21px;
     line-height: 30px;
     color: #FFFFFF;
+}
+
+.cv_link_course{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

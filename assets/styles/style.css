@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+#skill {
+    padding: 20px 0;
+}
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cv_info {
+    background: #14487F;
+    width: 601px;
+}
+
+
+.cv_main {
+    background: #FFFFFF;
+    padding: 20px;
+    gap: 20px;
+}
+
+.cv_name{
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 52px;
+    color: #14487F;
+}
+
+.cv_post{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #333132;
+}
+
+
+.cv_heading{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #14487F;
+}
+
+.cv_heading_lower{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #14487F;
+}
+
+.cv_text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    color: #77787B;
+}
+
+.cv_text_code{
+    font-size: 24px;
+}
+
+.cv_skill_name{
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.cv_skill_info{
+    padding-left: 40px;
+}
+
+.cv_skill_info li{
+    list-style: disc;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+

@@ -1,0 +1,19 @@
+
+nav{
+    background: #3a6fa7;
+    color: #FFFFFF;
+    padding: 12px 0;
+}
+
+.menu__list {
+    display: flex;
+    gap: 58px;
+    justify-content: center;
+}
+
+.menu__list a {
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    color: #ffffff;
+}
